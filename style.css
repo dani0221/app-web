@@ -1,0 +1,12 @@
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: rgb(116, 228, 209); /* Color del texto */
+}
+
+h1, p {
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+h1:hover, p:hover {
+    color: rgb(214, 163, 248); /* Color del texto al pasar el cursor por encima */
+}
